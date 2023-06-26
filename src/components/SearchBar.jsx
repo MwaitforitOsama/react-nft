@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 
 const SearchBar =({search, setSearch}) => {
-
+const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
+    // Perform any necessary logic or actions here
+    };
 
 
   return (
-    <form className={'search-form'}>
+    <form className={'search-form'} onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Enter Name to Search;..."
