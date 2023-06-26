@@ -114,6 +114,17 @@ transition: background 0.5s;
   overflow: auto;
 }
 
+@media screen and (max-width: 600px) {
+  .grid-container{
+  display:grid;
+  grid-template-columns: auto ;
+  max-height: 100vh;
+  overflow: auto;
+  }
+ 
+}
+
+
 .loading-container {
   display: flex;
   justify-content: center;
