@@ -10,7 +10,7 @@ const handleSubmit = (e) => {
     <form className={'search-form'} onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Enter Name to Search;..."
+        placeholder="Enter Name to Search"
         value={search}
         onChange = {(e)=>{setSearch(e.target.value)}}
         className='search-input'
