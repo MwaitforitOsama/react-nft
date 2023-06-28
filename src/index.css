@@ -112,6 +112,8 @@ transition: background 0.5s;
   grid-template-columns: auto auto auto auto;
   max-height: 100vh;
   overflow: auto;
+  align-items: center;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 600px) {
